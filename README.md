@@ -1,6 +1,6 @@
 # kube-dumper
 
-K8s Backup Service that listens to K8s events and automatically updates K8s backup.
+Backup service for Kubernetes that keeps the cluster state history in a Git repository. Reacts to K8s events to detect state changes while encrypting secrets using Mozilla SOPS.
 
 ## Configuration
 
